@@ -6,7 +6,7 @@
 
 ### Run Renaming Script
 
-`./change_name new_name`
+`./change_name project`
 
 ### Make Migrations
 
