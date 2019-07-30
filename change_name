@@ -1,0 +1,5 @@
+#!/bin/bash
+rename=$1
+grep -rl "django_starter" . | xargs sed -i 's/django_starter/'"$rename"'/g'
+find . -type d -execdir rename 's/django_starter/'"$rename"'/' '{}' \+
+rm -- "$0"
