@@ -17,3 +17,11 @@
 # Django Launch Ubuntu 16.04
 
 
+### Create Project Folder
+`cd /home/user`
+`mkdir project`
+
+
+### Install PIP & Virtualenv
+`sudo apt-get install python3-pip`
+`pip3 install virtualenv`
