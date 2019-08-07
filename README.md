@@ -25,3 +25,6 @@
 ### Install PIP & Virtualenv
 `sudo apt-get install python3-pip`<br/>
 `pip3 install virtualenv`
+
+### Create Virtualenv
+`virtualenv --python=/usr/bin/pythonX.X venv`
