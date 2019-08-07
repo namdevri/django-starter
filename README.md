@@ -14,5 +14,6 @@
 `python3 manage.py migrate`
 
 
-# Django Launch
+# Django Launch Ubuntu 16.04
+
 
