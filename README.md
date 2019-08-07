@@ -10,9 +10,10 @@
 
 ### Make Migrations
 
+`python3 manage.py makemigrations auth_app` <br/>
+`python3 manage.py migrate`<br/>
 `python3 manage.py makemigrations` <br/>
-`python3 manage.py migrate`
-
+`python3 manage.py migrate`<br/>
 
 # Django Launch Ubuntu 16.04
 
