@@ -1,5 +1,5 @@
 #!/bin/bash
-grep -rl --exclude='*.sh' "django_starter" . | xargs sed -i 's/django_starter/'$
+grep -rl --exclude='*.sh' "django_starter" . | xargs sed -i 's/django_starter/'"$1"'/g'
 mv "django_starter" "$1"
 mv "../django-starter" "../$1"
 rm -- "$0"
