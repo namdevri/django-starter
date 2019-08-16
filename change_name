@@ -1,5 +1,5 @@
 #!/bin/bash
-rename=$1
-grep -rl "django_starter" . | xargs sed -i 's/django_starter/'"$rename"'/g'
-find . -type d -execdir rename 's/django_starter/'"$rename"'/' '{}' \+
+grep -rl --exclude='*.sh' "django_starter" . | xargs sed -i 's/django_starter/'$
+mv "django_starter" "$1"
+mv "../django_starter" "$1"
 rm -- "$0"
