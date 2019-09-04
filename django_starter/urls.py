@@ -7,3 +7,6 @@ urlpatterns = [
     path('', include('auth_app.urls'), name='login'),
     path('dashboard/', include('dashboard.urls'), name='dashboard')
 ]
+
+handler404 = 'dashboard.views.handler404'
+handler500 = 'dashboard.views.handler500'
